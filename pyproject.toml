@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "lawlingo"
+version = "0.1.0"
+description = ""
+authors = ["Arvid Larsson"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+beautifulsoup4 = "4.8.0"
+requests = "^2.23.0"
+lxml = "^4.5.0"
+selenium = "^3.141.0"
+textract = "^1.6.3"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.770"
+black = "^19.10b0"
+pytest = "^5.4.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
