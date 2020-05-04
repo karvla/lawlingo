@@ -1,1 +1,1 @@
-Analyses the number of occurrences of non-recommended word in Swedish legal decisions.
+The Swedish Justice Department has published a [list](https://www.regeringen.se/rapporter/2011/10/pm-20111/) of words that can be replaced to improve readability. This notebook is used to track the occurrences of these words in public judgments. This tool was used in a project by Miriam Öhman at Lund University.
