@@ -505,6 +505,14 @@ python-versions = ">=3.5"
 version = "8.2.0"
 
 [[package]]
+category = "main"
+description = "D3 Viewer for Matplotlib"
+name = "mpld3"
+optional = false
+python-versions = "*"
+version = "0.3"
+
+[[package]]
 category = "dev"
 description = "Optional static typing for Python"
 name = "mypy"
@@ -1166,7 +1174,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "8079f2b2dc4548dd15e455b6d7a6eb10974e94a8cc70cba0772e9b1b8a0ac5ea"
+content-hash = "8dd2a6a536313f55bb6d1b4783025a9a6efc1a0319374bbfb9fb18d3df4bbbc6"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1418,6 +1426,9 @@ mistune = [
 more-itertools = [
     {file = "more-itertools-8.2.0.tar.gz", hash = "sha256:b1ddb932186d8a6ac451e1d95844b382f55e12686d51ca0c68b6f61f2ab7a507"},
     {file = "more_itertools-8.2.0-py3-none-any.whl", hash = "sha256:5dd8bcf33e5f9513ffa06d5ad33d78f31e1931ac9a18f33d37e77a180d393a7c"},
+]
+mpld3 = [
+    {file = "mpld3-0.3.tar.gz", hash = "sha256:4d455884a211bf99b37ecc760759435c7bb6a5955de47d8daf4967e301878ab7"},
 ]
 mypy = [
     {file = "mypy-0.770-cp35-cp35m-macosx_10_6_x86_64.whl", hash = "sha256:a34b577cdf6313bf24755f7a0e3f3c326d5c1f4fe7422d1d06498eb25ad0c600"},
